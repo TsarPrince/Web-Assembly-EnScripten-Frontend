@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 2rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#input {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  font-family: 'Lucida Console', Monaco, monospace;
+  outline: none;
+}
+
+#output {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-left: 0px;
+  border-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: block;
+  background-color: #27262e;
+  color: white;
+  font-family: 'Lucida Console', Monaco, monospace;
+  outline: none;
 }
