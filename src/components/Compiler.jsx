@@ -12,6 +12,10 @@ const Compiler = () => {
     // console.log(input);
 
     try {
+      // ec2 instance running at https://54.250.174.115/
+      // will not be always running tho
+      // cert will expire in 90 days from most recent commit
+      // host the backend somewhere else
       const response = await axios.post('https://54.250.174.115/compile', {
         input
       })
