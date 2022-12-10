@@ -60,8 +60,8 @@ const Login = () => {
     <div>
       {
         user
-          ? <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <div style={{ display: 'flex' }}>
+          ? <div>
+            <div>
               <img src={user.photoURL} alt={user.displayName} />
               <div>
                 <p>Welcome, {user.displayName}</p>
