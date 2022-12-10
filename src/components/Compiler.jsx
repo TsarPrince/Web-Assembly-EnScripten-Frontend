@@ -12,7 +12,7 @@ const Compiler = () => {
     // console.log(input);
 
     try {
-      const response = await axios.post('http://43.206.220.45:8080/compile', {
+      const response = await axios.post('https://54.250.174.115/compile', {
         input
       })
       const output = response.data.output;
